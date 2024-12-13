@@ -90,7 +90,6 @@
                 "snippets"
                 "spell"
                 #"treesitter"
-                "zsh"
               ];
             };
             providers = {
@@ -127,10 +126,6 @@
               #    name = "treesitter";
               #    module = "blink.compat.source";
               #  };
-              zsh = {
-                name = "zsh";
-                module = "blink.compat.source";
-              };
             };
           };
         };
@@ -145,7 +140,6 @@
       cmp-npm.enable = true;
       cmp-spell.enable = true;
       cmp-treesitter.enable = true;
-      cmp-zsh.enable = true;
 
       lsp.capabilities = # Lua
         ''
