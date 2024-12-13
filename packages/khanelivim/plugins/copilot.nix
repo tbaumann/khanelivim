@@ -2,7 +2,7 @@
 {
   plugins = {
     copilot-lua = {
-      enable = false;
+      enable = lib.mkForce false;
       panel.enabled = false;
       suggestion.enabled = false;
     };
